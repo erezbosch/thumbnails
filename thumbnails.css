@@ -1,0 +1,45 @@
+div.gutter-images img {
+  width: 20%;
+  display: block;
+  float: left;
+  cursor: pointer;
+}
+
+div.thumbnails {
+  width:400px;
+}
+
+div.active img {
+  width: 100%;
+}
+
+a.nav {
+  width: 5%;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.gutter {
+  position: relative;
+}
+
+a.nav:last-child {
+  left: 95%;
+}
+
+.gutter-images {
+  width: 90%;
+  float: left;
+  left: 5%;
+  position: relative;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
